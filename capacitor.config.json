@@ -1,0 +1,18 @@
+{
+  "appId": "com.festivefloat.app",
+  "appName": "Festive Float",
+  "webDir": ".",
+  "bundledWebRuntime": false,
+  "ios": {
+    "contentInset": "automatic"
+  },
+  "android": {
+    "allowMixedContent": true
+  },
+  "plugins": {
+    "SplashScreen": {
+      "launchAutoHide": true,
+      "backgroundColor": "#FF6B9D"
+    }
+  }
+}
