@@ -1,0 +1,37 @@
+{
+  "name": "festive-float",
+  "version": "1.0.0",
+  "description": "Gerenciador completo de festas e balões para decoradores",
+  "main": "index.js",
+  "scripts": {
+    "start": "http-server -p 3000 -c-1",
+    "dev": "http-server -p 3000 -c-1",
+    "build": "echo 'Build completed'",
+    "build:ios": "capacitor build ios",
+    "build:android": "capacitor build android",
+    "sync": "capacitor sync",
+    "open:ios": "capacitor open ios",
+    "open:android": "capacitor open android"
+  },
+  "keywords": [
+    "festas",
+    "balões",
+    "decoração",
+    "orçamentos",
+    "clientes"
+  ],
+  "author": "Kaua Santos",
+  "license": "MIT",
+  "devDependencies": {
+    "http-server": "^14.1.1"
+  },
+  "dependencies": {
+    "@capacitor/app": "^5.0.6",
+    "@capacitor/core": "^5.0.6",
+    "@capacitor/haptics": "^5.0.6",
+    "@capacitor/keyboard": "^5.0.6",
+    "@capacitor/platform": "^5.0.6",
+    "@capacitor/share": "^5.0.6",
+    "@capacitor/storage": "^5.0.6"
+  }
+}
